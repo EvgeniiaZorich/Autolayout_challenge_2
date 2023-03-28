@@ -24,7 +24,7 @@ final class RootViewController: UIViewController {
     private let redView: UIView = {
         let view = UIView()
         view.backgroundColor = .red
-        view.autoresizingMask = [.flexibleWidth,.flexibleTopMargin,.flexibleBottomMargin]
+        view.autoresizingMask = [.flexibleWidth, .flexibleTopMargin, .flexibleBottomMargin]
         return view
     }()
 
